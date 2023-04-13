@@ -1,0 +1,12 @@
+﻿@using KisiselWebSitesi.Models;
+@model List<Ikonlarr>
+@{
+}
+<div class="social">
+    @foreach (var x in Model)
+    {
+        <a href="@x.Link"><i class="@x.Ikon"></i></a>
+    }
+            
+            
+        </div>
